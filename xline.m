@@ -20,5 +20,5 @@
 ## Created: 2020-01-28
 
 function retval = xline (x)
-    line(get(gca,'xlim'),[x x])
+    line([x x],get(gca,'xlim'))
 endfunction

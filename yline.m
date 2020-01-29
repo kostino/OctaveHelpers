@@ -20,5 +20,5 @@
 ## Created: 2020-01-28
 
 function retval = yline (y)
-    line([y y],get(gca,'ylim'))
+    line(get(gca,'ylim'),[y y])
 endfunction
